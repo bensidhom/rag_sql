@@ -1,0 +1,19 @@
+https://ollama.com/
+ollama pull gemma2:9b
+ollama serve
+
+
+ollama run deepseek-coder:6.7b
+
+
+https://www.docker.com/products/docker-desktop/
+docker run -p 6333:6333 -v qdrant_data:/qdrant/storage qdrant/qdrant
+ 
+ 
+open the source code folder using vs code
+type in the terminal:
+python -m venv ragbase-env
+.\ragbase-env\Scripts\Activate 
+cd .\ragbase\ 
+streamlit run app.py  
+ 
